@@ -5199,7 +5199,7 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "11.1.6",
+            "version": "11.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -5234,7 +5234,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/11.1.6"
+                "source": "https://github.com/drupal/core-project-message/tree/11.1.7"
             },
             "time": "2023-07-24T07:55:25+00:00"
         },
