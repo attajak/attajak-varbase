@@ -1373,12 +1373,16 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/builder-webpack5@8.6.14", "@storybook/builder-webpack5@~8":
+  version "8.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-8.6.14.tgz#18e9f0d34b989ad1e4ed5b79a71c82b2bc727fd4"
+  integrity sha512-YZYAqc6NBKoMTKZpjxnkMch6zDtMkBZdS/yaji1+wJX2QPFBwTbSh7SpeBxDp1S11gXSAJ4f1btUWeqSqo8nJA==
 "@storybook/builder-webpack5@8.6.12":
   version "8.6.12"
   resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-8.6.12.tgz#7f4242b250793485c3921ac3a00a83bdf75f1075"
   integrity sha512-Z7RsQ/1+HbxdbM69JrEFcTL+pnVKUTMmeURMn5/eOvYTGjBtM18vbQTj0LjCUDIjC+v9U+uX8ZJEUVxFbGcxBw==
   dependencies:
-    "@storybook/core-webpack" "8.6.12"
+    "@storybook/core-webpack" "8.6.14"
     "@types/semver" "^7.3.4"
     browser-assert "^1.2.1"
     case-sensitive-paths-webpack-plugin "^2.4.0"
@@ -1520,6 +1524,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.6.12.tgz#8bfaf4bb061145c8a8acdda6f334691ad716b202"
   integrity sha512-FiaE8xvCdvKC2arYusgtlDNZ77b8ysr8njAYQZwwaIHjy27TbR2tEpLDCmUwSbANNmivtc/xGEiDDwcNppMWlQ==
 
+"@storybook/components@8.6.14":
 "@storybook/components@8.6.14", "@storybook/components@>=5.0.0":
   version "8.6.14"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.6.14.tgz#3cfc5e120f3dc38990fc37b34a22eff1e3f4bdfb"
@@ -1573,10 +1578,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-8.4.7.tgz#7d2192a97a26fb60d9a25b749e0c8bf0fadbd16d"
   integrity sha512-D5WhJBVfywIVBurNZ7mwSjXT18a8Ct5AfZFEukIBPLaezY21TgN/7sE2OU5dkMQsm11oAZzsdLPOzms2e9HsRg==
 
-"@storybook/core-webpack@8.6.12":
-  version "8.6.12"
-  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-8.6.12.tgz#9ff3ec01206a3f0a1b3cbd5842bd827dcceab3c8"
-  integrity sha512-TiE+KOm0hxb/p0JxeGHKxqTNX+xnTOFsBh6uloCSuvodutJ5pR/XpxKVxwo1gtSc0Uq3qpgbMhW6qYlYQetnKA==
+"@storybook/core-webpack@8.6.14":
+  version "8.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-8.6.14.tgz#2d2d3aca9cff01bcb33d1b6067d5dd69727998f1"
+  integrity sha512-iG7r8osNKabSGBbuJuSeMWKbU+ilt5PvzTYkClcYaagla/DliXkXvfywA6jOugVk/Cpx+c6tVKlPfjLcaQHwmw==
   dependencies:
     ts-dedent "^2.0.0"
 
@@ -1704,14 +1709,14 @@
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.6.20.tgz#c0ca90cf68cf31d84cdcf53c76cec22769407ece"
   integrity sha512-l2i4qF1bscJkOplNffcRTsgQWYR7J51ewmizj5YrTM8BK6rslWT1RntgVJWB1RgPqvx6VsCz1gyP3yW1oKxvYw==
 
-"@storybook/preset-server-webpack@8.6.12":
-  version "8.6.12"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-server-webpack/-/preset-server-webpack-8.6.12.tgz#4fd54e374abe7fe625f896a057f8586efadaec0b"
-  integrity sha512-c9TQvlyDJh3hNxAWbsvSoEPjyFjmV2BJt2s0PslS/THkhYrjd9HNTyj/RoxdBTcX40hSFleRxu3qPj6DAcSLew==
+"@storybook/preset-server-webpack@8.6.14":
+  version "8.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-server-webpack/-/preset-server-webpack-8.6.14.tgz#6d76bafdf39e4a56f40ec9b0ce643fe831e0af7a"
+  integrity sha512-5EfMjgp9+arB7ck86/JW7dCh4Myf1SK1T2sTl1O6ptQFkKbzyjscAnhbDTLKFfbbBUHBrDsvrCQxVmNC2ZQ6Vw==
   dependencies:
-    "@storybook/core-webpack" "8.6.12"
+    "@storybook/core-webpack" "8.6.14"
     "@storybook/global" "^5.0.0"
-    "@storybook/server" "8.6.12"
+    "@storybook/server" "8.6.14"
     safe-identifier "^0.4.1"
     ts-dedent "^2.0.0"
     yaml-loader "^0.8.0"
@@ -1802,24 +1807,28 @@
     qs "^6.10.0"
 
 "@storybook/server-webpack5@~8":
-  version "8.6.12"
-  resolved "https://registry.yarnpkg.com/@storybook/server-webpack5/-/server-webpack5-8.6.12.tgz#f34606cc58d6222242994fa3908eb506ac329df3"
-  integrity sha512-ZpIREDVx6PZjd+2NuPOikArP7aOsmSnNNBzFc5ZUAnzSkMZGWyZj5cUokEBQLs3H0BNd8aOdr+UrMGeayEdD4Q==
+  version "8.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/server-webpack5/-/server-webpack5-8.6.14.tgz#a5ad64f300652557604fd258717f05bb7d695092"
+  integrity sha512-TRt8SrgEycaKEeV/59zPT6MfM4yn3n/3Oq0KGApFEim88b0dfe7uqCwXIIXnQH0PiwPkf5k/RX7r/objVqYApw==
   dependencies:
-    "@storybook/builder-webpack5" "8.6.12"
-    "@storybook/preset-server-webpack" "8.6.12"
-    "@storybook/server" "8.6.12"
+    "@storybook/builder-webpack5" "8.6.14"
+    "@storybook/preset-server-webpack" "8.6.14"
+    "@storybook/server" "8.6.14"
 
+"@storybook/server@8.6.14", "@storybook/server@~8":
+  version "8.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/server/-/server-8.6.14.tgz#b454403508c2560e1145842249ed65674f17ceeb"
+  integrity sha512-/v2GqsJkBVC667h9B4/I+uM3joEHDBXdNURstFHm8LVSpEipmUnfSKX8tVZFtiNyLDZacnr/FTCLAW2iZoYXXw==
 "@storybook/server@8.6.12":
   version "8.6.12"
   resolved "https://registry.yarnpkg.com/@storybook/server/-/server-8.6.12.tgz#fa3980ff3f8dbc85a3a6eae1b138feb7005b18d2"
   integrity sha512-FKSrCwkbMrlz/gev36ewCnqR2YXdzYArJICyhCiBJ6uY46T3hI4cRPquRJ2SsGfpG2gDKZsUsKmrQ8iarlUSzg==
   dependencies:
-    "@storybook/components" "8.6.12"
+    "@storybook/components" "8.6.14"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "8.6.12"
-    "@storybook/preview-api" "8.6.12"
-    "@storybook/theming" "8.6.12"
+    "@storybook/manager-api" "8.6.14"
+    "@storybook/preview-api" "8.6.14"
+    "@storybook/theming" "8.6.14"
     ts-dedent "^2.0.0"
     yaml "^2.3.1"
 
@@ -3728,10 +3737,10 @@ eslint-config-airbnb@~19.0:
     object.assign "^4.1.2"
     object.entries "^1.1.5"
 
-eslint-config-prettier@^10.1.5:
-  version "10.1.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.5.tgz#00c18d7225043b6fbce6a665697377998d453782"
-  integrity sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==
+eslint-config-prettier@^10.1.8:
+  version "10.1.8"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz#15734ce4af8c2778cc32f0b01b37b0b5cd1ecb97"
+  integrity sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==
 
 eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
